@@ -59,7 +59,7 @@ const App = () => {
         onChangeText={(text) => setMovieTitle(text)}
       />
       <Button title="Buscar Filme" onPress={handleSearch} />
-     /* {location && (
+      {location && (
         <View>
           <Text style={{ fontSize: 18, fontWeight: "bold" }}>
             Sua Localização
@@ -82,7 +82,7 @@ const App = () => {
               }}
               title="Sua Localização"
             />
-          </MapView> */
+          </MapView> 
         </View>
       )}
       {movieData && (
